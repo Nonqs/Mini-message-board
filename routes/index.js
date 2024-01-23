@@ -17,8 +17,6 @@ const router = express.Router()
 
 router.get("/", (req, res) => {
 
-    
-console.log(messages)
 
     res.render("index.ejs", { messages: messages })
 
